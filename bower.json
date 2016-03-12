@@ -1,0 +1,22 @@
+{
+  "name": "products",
+  "description": "This project is a pre employment requirement by Migo given by marvin@migo.tv",
+  "main": "server/app.js",
+  "authors": [
+    "bj edward 'bujo' taduran"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/tech-bujo/products",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.0",
+    "bootstrap": "^3.3.6"
+  }
+}

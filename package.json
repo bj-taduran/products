@@ -1,0 +1,30 @@
+{
+  "name": "products",
+  "version": "0.0.1",
+  "description": "This project is a pre employment requirement by Migo given by marvin@migo.tv",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "postinstall": "bower install",
+    "test": "karma start karma.conf.js"
+  },
+  "author": "bj edward 'bujo' taduran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bower": "^1.7.7",
+    "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "4.4.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.5.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^0.5.5",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "phantomjs-prebuilt": "^2.1.5"
+  }
+}
